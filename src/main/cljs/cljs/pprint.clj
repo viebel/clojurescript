@@ -7,7 +7,7 @@
 ;; You must not remove this notice, or any other, from this software.
 
 (ns cljs.pprint
-  (:refer-clojure :exclude [deftype])
+  (:refer-clojure :exclude [deftype macroexpand])
   (:require [clojure.walk :as walk]))
 
 
